@@ -982,7 +982,7 @@
           return obj;
         });
         ITEMS = rows.filter(r => r.Name);
-        const msg = `Connected — ${ITEMS.length} item(s) loaded live from your Google Sheet.`;
+        // const msg = `Connected — ${ITEMS.length} item(s) loaded live from your Google Sheet.`;
         immStatus.textContent = msg; uvaStatus.textContent = msg;
       } catch (err) {
         ITEMS = DEMO_ITEMS;
